@@ -1,5 +1,11 @@
 *{
-	/*border: 1px dotted red;*/
+	margin: 0 auto;
+	font-family: Helvetica;
+}
+
+h5, hr{
+	margin-top: 10px;
+	margin-bottom: 5px;
 }
 
 #container{
@@ -101,11 +107,14 @@
 	display: inline-block;
 	font-size: .8em;
 	font-weight: bold;
+	margin-left: 10px;
+	margin-right: 10px;
 	/*border: 1px dotted blue;*/
 }
 
+
 #task_bar ul li a{
-	color: black;
+	color: rgb(92, 91, 91);
 	text-decoration: none;
 }
 
@@ -121,12 +130,17 @@
 }
 
 #sidebar ul{
-	padding-right: 20px;
+	padding-left: 20px;
+	margin-top: 10px;
 }
 
-
 #sidebar ul li{
-	list-style-type: square; /*how do i make this into ">>"*/
+    list-style-type: none;
+	color: maroon;
+}
+
+#sidebar ul li:before{
+    content: "\00BB \0020";
 }
 
 #sidebar ul li a{
